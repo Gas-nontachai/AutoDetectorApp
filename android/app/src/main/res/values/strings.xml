@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AutoDetectorApp</string>
+    <string name="accessibility_service_label">Screen Text Detector</string>
+    <string name="overlay_button_text">เปิดแอปเป้าหมาย</string>
 </resources>

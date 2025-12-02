@@ -14,8 +14,8 @@ class MainApplication : Application(), ReactApplication {
       context = applicationContext,
       packageList =
         PackageList(this).packages.apply {
-          // Packages that cannot be autolinked yet can be added manually here, for example:
-          // add(MyReactNativePackage())
+          // แม้ React Native จะ autolink โมดูลหลายตัวได้แล้ว แต่เรายังเพิ่มโมดูลนี้แบบ manual เพื่อควบคุม accessibility flows
+          add(DetectorPackage())
         },
     )
   }

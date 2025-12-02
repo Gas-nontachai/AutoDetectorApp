@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "format": "prettier --write \"App.js\" \"src/**/*.{js,jsx,ts,tsx}\" \"__tests__/**/*.{js,ts,tsx}\" \"jest.*.js\" \"package.json\"",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native/new-app-screen": "0.82.1",
     "react": "19.1.1",
     "react-native": "0.82.1",
-    "@react-native/new-app-screen": "0.82.1",
     "react-native-safe-area-context": "^5.5.2"
   },
   "devDependencies": {
